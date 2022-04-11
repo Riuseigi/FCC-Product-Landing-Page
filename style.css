@@ -16,6 +16,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
+}
 .nav-item {
   font-size: 20px;
   color: white;
@@ -28,3 +29,56 @@ body {
   justify-content: left;
   align-items: left;
 }
+#img-product {
+  width: 0%;
+  height: 30%;
+}
+#product-name {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 50%;
+  width: 50%;
+  margin-bottom: 10px; /* Added */
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#home > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  color: aliceblue;
+}
+
+#home input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#home input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+#home input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
