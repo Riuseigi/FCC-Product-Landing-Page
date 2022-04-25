@@ -24,7 +24,7 @@
     <title>Title</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container ">
       <!-- Navbar -->
       <header id="header">
         <nav
@@ -63,15 +63,15 @@
               <!-- Left links -->
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Product</a>
+                  <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#product">Product</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
@@ -104,9 +104,62 @@
           placeholder="Enter your email address"
           required
         />
-        <input id="submit" type="submit" value="Get Started" class="btn" />
+        <input id="submit" type="submit" value="Get Started" class="btn btn-outline-primary" />
       </form>
     </section>
+    <div class="container" id="hero">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-headphones"></i></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally. This
+              will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages or
+              faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+      
+    <section id="product">
+      <div class="flex container justify-center">
+        <iframe  id="video" width="720" height="480" src="https://www.youtube.com/embed/X6cEueX_Y8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2016, Original Trombones</span>
+    </footer>
+  </div>
+</div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
